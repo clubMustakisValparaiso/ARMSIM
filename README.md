@@ -34,7 +34,7 @@ MAIN
 	B END  
   
 FACT  
-	STR LR,SP,#4    
+    STR LR,SP,#4    
 	ADD R3,R0,#0  
 	SUB R0,R0,R0  
 	SUB R1,R1,R1  
@@ -66,9 +66,9 @@ e0400000
 e2800004  
 e28fe000  
 ea000000  
-eafffffe  	
+eafffffe  
 e58de004  
-e2803000  	
+e2803000  
 e0400000  
 e0411001  
 e2800001  
