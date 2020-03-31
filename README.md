@@ -34,7 +34,7 @@ MAIN
 	B END  
   
 FACT  
-    STR LR,SP,#4    
+	+ STR LR,SP,#4    
 	ADD R3,R0,#0  
 	SUB R0,R0,R0  
 	SUB R1,R1,R1  
