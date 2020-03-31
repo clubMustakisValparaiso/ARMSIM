@@ -18,8 +18,8 @@ Bugs
 Notas
 
 -> Los MOV A,B se pueden escribir como: 
-	SUB A,A,A 
-	ADD A,B,#0  
+&nbsp;&nbsp;&nbsp;&nbsp;SUB A,A,A 
+&nbsp;&nbsp;&nbsp;&nbsp;ADD A,B,#0  
 
 
 ---------------------------------------------------------------------------------
@@ -28,37 +28,37 @@ Notas
 ; Factorial de n. n se entrega como argumento en R0.
 
 MAIN
-	MOV R0,#4  
-	MOV LR,PC  
-	B FACT  
-	B END  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV R0,#4  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV LR,PC  
+&nbsp;&nbsp;&nbsp;&nbsp;B FACT  
+&nbsp;&nbsp;&nbsp;&nbsp;B END  
   
 FACT  
 &nbsp;&nbsp;&nbsp;&nbsp;STR LR,SP,#4    
-	ADD R3,R0,#0  
-	SUB R0,R0,R0  
-	SUB R1,R1,R1  
-	ADD R0,R0,#1  
-	ADD R1,R3,#0  
-	MOV LR,PC  
-	B MUL  
-	SUBS R3,R3,,#1  
-	BGE #-6  
-	LDR LR,SP,#4  
-	NOP  
-	NOP  
-	MOV PC,LR  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R3,R0,#0  
+&nbsp;&nbsp;&nbsp;&nbsp;SUB R0,R0,R0  
+&nbsp;&nbsp;&nbsp;&nbsp;SUB R1,R1,R1  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R0,R0,#1  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R1,R3,#0  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV LR,PC  
+&nbsp;&nbsp;&nbsp;&nbsp;B MUL  
+&nbsp;&nbsp;&nbsp;&nbsp;SUBS R3,R3,,#1  
+&nbsp;&nbsp;&nbsp;&nbsp;BGE #-6  
+&nbsp;&nbsp;&nbsp;&nbsp;LDR LR,SP,#4  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV PC,LR  
 MUL  
-	ADD R2,R0,#0  
-	SUB R0.R0,R0  
-	SUBS R1,R1,#1  
-	ADDPL R0,R0,R2  
-	BPL #-4  
-	NOP  
-	NOP  
-	MOV PC,LR  
-	NOP  
-	NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R2,R0,#0  
+&nbsp;&nbsp;&nbsp;&nbsp;SUB R0.R0,R0  
+&nbsp;&nbsp;&nbsp;&nbsp;SUBS R1,R1,#1  
+&nbsp;&nbsp;&nbsp;&nbsp;ADDPL R0,R0,R2  
+&nbsp;&nbsp;&nbsp;&nbsp;BPL #-4  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV PC,LR  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
 
 //------------------------ ML
 
