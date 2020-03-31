@@ -102,29 +102,29 @@ e2888000
 
 
 MAIN  
-	MOV R0,#6  
-	MOV SP,#0  
-	MOV LR,PC  
-	B FIBO  
-END B END  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV R0,#6  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV SP,#0  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV LR,PC  
+&nbsp;&nbsp;&nbsp;&nbsp;B FIBO  
+END      B END  
 
 
 FIBO  
-	ADD R3,R0,#0	; valores iniciales de la secuencia  
-	SUB R0,R0,R0  
-	ADD R1,R1,R1  
-	ADD R2,R2,r2  
-	ADD R1,R1,#1  
-	ADD R0,R1,R2 	; Comienza la secuencia  
-	STR R0,[R13, #4]  
-	STR R1,[R13, #8]  
-	LDR R1,[R13, #4]  
-	LDR R2,[R13, #8]  
-	SUBS R3,R3,#1  
-	BGT #-8  
-	MOV PC,LR  
-	NOP  
-	NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R3,R0,#0	; valores iniciales de la secuencia  
+&nbsp;&nbsp;&nbsp;&nbsp;SUB R0,R0,R0  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R1,R1,R1  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R2,R2,r2  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R1,R1,#1  
+&nbsp;&nbsp;&nbsp;&nbsp;ADD R0,R1,R2 	; Comienza la secuencia  
+&nbsp;&nbsp;&nbsp;&nbsp;STR R0,[R13, #4]  
+&nbsp;&nbsp;&nbsp;&nbsp;STR R1,[R13, #8]  
+&nbsp;&nbsp;&nbsp;&nbsp;LDR R1,[R13, #4]  
+&nbsp;&nbsp;&nbsp;&nbsp;LDR R2,[R13, #8]  
+&nbsp;&nbsp;&nbsp;&nbsp;SUBS R3,R3,#1  
+&nbsp;&nbsp;&nbsp;&nbsp;BGT #-8  
+&nbsp;&nbsp;&nbsp;&nbsp;MOV PC,LR  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
+&nbsp;&nbsp;&nbsp;&nbsp;NOP  
 
 
 //------------------------ ML
