@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 29 14:17:39 2020
+# Process ID: 22253
+# Current directory: /home/andrew/Documentos/vivado stuff/cosa4/modules_test.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/andrew/Documentos/vivado stuff/cosa4/modules_test.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/andrew/Documentos/vivado stuff/cosa4/modules_test.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/andrew/Documentos/vivado stuff/cosa4/modules_test.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/andrew/Documentos/vivado -notrace
+couldn't read file "/home/andrew/Documentos/vivado": illegal operation on a directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 29 14:17:39 2020...
